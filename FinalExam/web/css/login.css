@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2024, 1:18:18 PM
+    Author     : Hậu Phan
+ background-color: #FFFFF0;
+*/
+body {
+    background: url(https://png.pngtree.com/background/20230625/original/pngtree-conceptualizing-3d-application-development-and-ui-ux-design-picture-image_4051653.jpg);
+    font-family: Arial, sans-serif;
+    margin: 300px;
+    padding: 0;
+    background-size: cover;
+    background-position-x: -3px;
+    background-position-y: -3px;
+}
+
+.container {
+    max-width: 330px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    background: rgba(0,0,0,0.6);
+}
+
+h1 {
+    color:#00CC99;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.g-recaptcha {
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 49%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #99CCCC;
+    color: white;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #8b9095;
+    text-decoration: none;    
+}
+.register{
+    margin-top: 10px;
+}

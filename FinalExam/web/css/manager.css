@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2024, 1:25:31 PM
+    Author     : Hậu Phan
+*/
+
+body {
+    background: url(https://png.pngtree.com/background/20230625/original/pngtree-conceptualizing-3d-application-development-and-ui-ux-design-picture-image_4051653.jpg);
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    padding: 0;
+    background-size: cover;
+    background-position-x: -3px;
+    background-position-y: -3px;
+
+}
+h1 {
+    color:#8b9095;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 253, 0.8);
+}
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+input[type="submit"] {
+    margin-top: 2%;
+    cursor: pointer;
+    background-color: #8b9095;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #99CCCC;
+}
+
+.center-text {
+    text-align: center;
+}
+
+a {
+
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8b9095;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+    background-color: #99CCCC;
+    color: white;
+}

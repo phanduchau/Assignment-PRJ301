@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2024, 1:26:13 PM
+    Author     : Hậu Phan
+*/
+
+
+body {
+    background: url(https://png.pngtree.com/background/20230625/original/pngtree-conceptualizing-3d-application-development-and-ui-ux-design-picture-image_4051653.jpg);
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    padding: 0;
+    background-size: cover;
+    background-position-x: -3px;
+    background-position-y: -3px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #8b9095;
+}
+
+.container {
+    max-width: 1750px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 253, 0.8);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+input[type="submit"],
+input[type="reset"],
+a {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color:#8b9095;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+a:hover {
+    background-color: #99CCCC;
+    color: white;
+}
+.Search_Controller{   
+    margin-top: 20px;
+    display: flex; 
+    align-items: center;
+}
+.button-container{
+    margin-right: 10px;
+    display: flex; 
+    align-items: center;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px;
+}       
+

@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2024, 1:26:52 PM
+    Author     : Hậu Phan
+*/
+
+
+/* Global Styles */
+body {
+    background: url(https://png.pngtree.com/background/20230625/original/pngtree-conceptualizing-3d-application-development-and-ui-ux-design-picture-image_4051653.jpg);
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-size: cover;
+    background-position-x: -3px;
+    background-position-y: -3px;
+}
+
+.container {
+    max-width: 1750px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 253, 0.8);
+}
+
+h1 {
+
+    text-align: center;
+    margin-top: 20px;
+    color: #8b9095;
+}
+
+a {
+
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8b9095;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+    background-color: #99CCCC;
+    color: white;
+}
+
+.button-container {
+    margin-bottom: 20px;              
+}
+.button-container1 {
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #8b9095;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #99CCCC;
+    color: white;
+}
+.button-container1 button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #8b9095;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button-container1 button:hover{
+    background-color: #99CCCC;
+    color: white;
+}
+
+
+.search-container input {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.custom-table td {
+    text-align: center;
+}
+
+#modalMessage {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.search-container{
+    margin-top: 20px;
+}
+.mainController{
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .search-container input {
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+
+    .button-container button {
+        flex: 1 0 100%;
+        margin-top: 10px;
+    }
+
+    .custom-table th,
+    .custom-table td {
+        font-size: 14px;
+    }
+}
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.6); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 11% auto;
+    padding: 5px;
+    border: 1px solid #fefefe;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    height:120px;
+}
+.modal-content #modalMessage{
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+}
+.close {
+    background-color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+.close:hover,
+.close:focus {
+    color: #cc0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content button{
+    width: 10%;
+    background-color: #8b9095;
+    color: #fff;
+    border: 8px solid #8b9095;
+}
+
+.modal-content button:hover{
+    background-color: #99CCCC;
+    color: #000;
+}
+.modal-content a{ 
+}
+

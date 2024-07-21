@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Insert Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/insert.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Insert new Mobile</h1>
+            <form action="MainController" method="POST">
+                <input type="text" name="mobileId" placeholder="Mobile ID" required=""/>
+                <input type="text" name="description" placeholder="Description" required=""/>
+                <input type="text" name="price" placeholder="Price" required=""/>
+                <input type="text" name="mobileName" placeholder="Mobile Name" required=""/>
+                <input type="number" name="yearOfProduction" placeholder="Year of Production"  required=""/>
+                <input type="text" name="image" placeholder="image url" required=""/>
+                <input type="number" name="quantity" placeholder="Quantity" required=""/>
+                <input type="number" name="notSale" placeholder="NotSale" max="1" min="0" required=""/>           
+                </br><input type="submit" name="action" value="Insert"/>
+                <input type="reset" value="Reset"/>
+            </form>    
+            <a href="staff.jsp">View</a>
+        </div>
+    </body>
+</html>
+
+
